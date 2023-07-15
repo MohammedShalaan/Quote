@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(199, 199, 199);
+
+
+}
+
+
+section {
+    margin-top: 40px;
+}
+
+.contaner {
+    width: 60vw;
+    background-color: rgb(221, 221, 221);
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-block-end: 40px;
+}
+
+.contaner h1 {
+    font-size: 50px;
+}
+
+.contaner button {
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+    border: none;
+    border-radius: 6px;
+}
+
+.contaner button:hover {
+    background-color: red;
+}
+
+blockquote {
+    display: none;
+}
